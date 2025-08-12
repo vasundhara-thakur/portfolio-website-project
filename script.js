@@ -52,22 +52,6 @@
     }, {threshold:0.12});
     reveals.forEach(el => io.observe(el));
 
-    // contact form small handler (no backend) - copies message to clipboard as a quick demo
-    function handleContact(e){
-      e.preventDefault();
-      const name = document.getElementById('name').value.trim();
-      const email = document.getElementById('email').value.trim();
-      const message = document.getElementById('message').value.trim();
-      const text = `Message from ${name} (${email}):\n\n${message}`;
-      // For demo: copy to clipboard and show simple alert
-      navigator.clipboard?.writeText(text).then(() => {
-        alert('Message copied to clipboard (demo). Replace handler with your backend/email service.');
-        e.target.reset();
-      }).catch(() => {
-        alert('Please implement a backend or use a mailto: link. (This demo copies message to clipboard.)');
-      });
-    }
-
     // small UX touches
     document.getElementById('year').textContent = new Date().getFullYear();
 
