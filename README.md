@@ -37,11 +37,6 @@ Built with **HTML**, **CSS**, and **JavaScript**, this site highlights my work a
 
 ---
 
-## 📸 Screenshots
-_Add screenshots here to showcase the website on desktop and mobile._
-
----
-
 ## 📥 Installation & Usage
 1. Clone this repository:
    ```bash
