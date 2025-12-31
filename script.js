@@ -79,21 +79,18 @@ mobileToggle?.addEventListener("click", () => {
 // projects
 const projects = [
   {
-    img: "images/todo.png",
-    name: "Task Manager App",
-    desc: `A responsive and intuitive task management application built using vanilla JavaScript, 
-    HTML, and CSS.Users can add new tasks, mark them as completed, edit or delete pending tasks, 
-    and filter the view by task status.All data is
-    stored in the browser's localStorage for seamless offline use.`,
-    live: "https://projecttasksmanager.netlify.app/",
-    github: "https://github.com/vasundhara-thakur/Task-Manager-App",
+    img: "images/dashboard.png",
+    name: "Productivity Dashboard Web App",
+    desc: `A productivity-focused web application built with HTML, CSS, and JavaScript featuring task management, planning tools, and a Pomodoro timer.`,
+    live: "https://dashboardforproductivity.netlify.app/",
+    github: "https://github.com/vasundhara-thakur/productivity_dashboard",
   },
   {
-    img: "./images/alvy.png",
-    name: "ALVY UI clone",
-    desc: `A responsive UI clone of the Alvy website built to replicate its layout, design system, and visual hierarchy. Focused on pixel-perfect styling and modern frontend practices.`,
-    live: "https://alvyuiclone.netlify.app/",
-    github: "https://github.com/vasundhara-thakur/ALVY-Clone-UI",
+    img: "./images/etech.png",
+    name: "Etech Education Platform",
+    desc: `A fully responsive learning platform UI built with React and Tailwind CSS using reusable components and modern design principles.`,
+    live: "https://etech-education-platform.netlify.app/",
+    github: "https://github.com/vasundhara-thakur/Etech",
   },
   {
     img: "./images/weather.png",
